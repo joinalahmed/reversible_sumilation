@@ -14,7 +14,7 @@ def truth_fix(input_result):
         if i == True:
             result[n] = 1
         if i == False:
-            result[n] = 0
+            result[n] = 1
 
 
 testPatterns = table = list(itertools.product([0, 1], repeat=3))
